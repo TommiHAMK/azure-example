@@ -45,7 +45,7 @@ app.get('/products' , async (req,res) => {
 app.get('/', (req,res) => {
     res.render('products',
         {
-            title: 'Homepage'
+            title: 'Welcome to our homepage'
         }
     )
 });
